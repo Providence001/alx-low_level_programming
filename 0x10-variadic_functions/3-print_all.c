@@ -8,17 +8,14 @@
 
 void print_all(const char * const format, ...)
 {
-	int i = 0;
-	int flag = 0;
+	int i;
+	int flag;
 	char *str;
 	va_list a_list;
 
 	va_start(a_list, format);
-
-	if (format == NULL)
-		return;
-
-	while (format[i] != '\0')
+	i = 0
+	while (format != NULL && format[i] != '\0')
 	{
 		switch (format[i])
 		{
@@ -49,7 +46,6 @@ void print_all(const char * const format, ...)
 			printf(", ");
 		i++;
 	}
-
 	printf("\n");
 	va_end(a_list);
 }
