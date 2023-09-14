@@ -4,7 +4,7 @@
  * print_numbers - prints numbers followed by a new line
  * @n: number of parameters
  * @separator: separator between two numbers
- * Return: void
+ * Return: Always 0
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
