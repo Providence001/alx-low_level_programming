@@ -1,11 +1,12 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strstr - locates a substring
- * @haystack: string in which to check for needle
- * @needle: substring to find in haystack
  *
- * Return: pointer to beginning of needle in haystack or NULL if no match
+ * @haystack: the longer string to search
+ * @needle: the first occurrence of the substring
+ *
+ * Return: a pointer beg of substring or @Null if it not foound.
  */
 char *_strstr(char *haystack, char *needle)
 {
